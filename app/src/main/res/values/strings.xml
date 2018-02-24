@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HarryPotterQuiz</string>
+    <string name="first_question">1. Who is the seeker of Gryffindor?</string>
+    <string name="second_question">2. Who did break into the Gringotts Bank on Harry\'s birthday?</string>
+    <string name="third_question">3. Where did the Dursleys live?</string>
+    <string name="fourth_question">4. What was the birth name of Voldemort?</string>
+    <string name="fifth_question">5. How many times was Nearly Headless Nick hit with an axe before he died?</string>
+    <string name="sixth_question">6. Who did live in Hufflepuff House?</string>
+    <string name="seventh_question">7. How old was Harry when he began the wizard school?</string>
+    <string name="eighth_question">8. Where did Hermione glimpse the Basilisk?</string>
+    <string name="HP">Harry Potter</string>
+    <string name="HG">Hermione Granger</string>
+    <string name="GW">George Weasley</string>
+    <string name="DM">Draco Malfoy</string>
+    <string name="RH">Rubeus Hagrid</string>
+    <string name="OW">Oliver Wood</string>
+    <string name="AD">Albus Dumbledore</string>
+    <string name="VC">Vincent Crabbe</string>
+    <string name="QQ">Quirinus Quirrell</string>
+    <string name="address1">4 Privet Drive</string>
+    <string name="address2">12 Diagon Alley</string>
+    <string name="address3">1 Leaky Couldron</string>
+    <string name="address4">666 Knockturn Alley</string>
+    <string name="Voldemort">Tom Marvolo Riddle</string>
+    <string name="mirror">in the mirror</string>
+    <string name="puddle">in a puddle</string>
+    <string name="glasses">through her glasses</string>
+    <string name="bed">in her bed</string>
+
+</resources>
