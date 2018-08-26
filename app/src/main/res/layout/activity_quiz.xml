@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    tools:context="com.bagirapp.harrypotterquiz.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/quizLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp" />
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout style="@style/questionBox">
+
+            <TextView
+                android:id="@+id/question"
+                style="@style/questionStyle" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                style="@style/radioGroupStyle">
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/tick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/buttonStyle"
+            android:background="@drawable/buttonshape"
+            android:layout_marginBottom="56dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+

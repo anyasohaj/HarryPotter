@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level_labels">
+        <item>@string/settings_level_beginner_label</item>
+        <item>@string/settings_level_advanced_label</item>
+        <item>@string/settings_level_professional_label</item>
+    </string-array>
+
+    <string-array name="level_values">
+        <item>@string/settings_level_beginner_value</item>
+        <item>@string/settings_level_advanced_value</item>
+        <item>@string/settings_level_professional_value</item>
+    </string-array>
+</resources>

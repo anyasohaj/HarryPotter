@@ -1,30 +1,38 @@
 <resources>
     <string name="app_name">HarryPotterQuiz</string>
-    <string name="first_question">1. Who is the seeker of Gryffindor?</string>
-    <string name="second_question">2. Who did break into the Gringotts Bank on Harry\'s birthday?</string>
-    <string name="third_question">3. Where did the Dursleys live?</string>
-    <string name="fourth_question">4. What was the birth name of Voldemort?</string>
-    <string name="fifth_question">5. How many times was Nearly Headless Nick hit with an axe before he died?</string>
-    <string name="sixth_question">6. Who did live in Hufflepuff House?</string>
-    <string name="seventh_question">7. How old was Harry when he began the wizard school?</string>
-    <string name="eighth_question">8. Where did Hermione glimpse the Basilisk?</string>
-    <string name="HP">Harry Potter</string>
-    <string name="HG">Hermione Granger</string>
-    <string name="GW">George Weasley</string>
-    <string name="DM">Draco Malfoy</string>
-    <string name="RH">Rubeus Hagrid</string>
-    <string name="OW">Oliver Wood</string>
-    <string name="AD">Albus Dumbledore</string>
-    <string name="VC">Vincent Crabbe</string>
-    <string name="QQ">Quirinus Quirrell</string>
-    <string name="address1">4 Privet Drive</string>
-    <string name="address2">12 Diagon Alley</string>
-    <string name="address3">1 Leaky Couldron</string>
-    <string name="address4">666 Knockturn Alley</string>
-    <string name="Voldemort">Tom Marvolo Riddle</string>
-    <string name="mirror">in the mirror</string>
-    <string name="puddle">in a puddle</string>
-    <string name="glasses">through her glasses</string>
-    <string name="bed">in her bed</string>
+    <string name="next">Tovább</string>
+    <string name="quiz_button">Kvíz</string>
+    <string name="akasztofa_button">Akasztófa</string>
+    <string name="abc_first_part">abcdefghi</string>
+    <string name="abc_second_part">jklmnopq</string>
+    <string name="abc_third_part">rstuvwxyz</string>
+    <string name="ujra">Újat szeretnék</string>
+    <string name="level">Nehézségi szint</string>
+    <string name="option_beginner">kezd</string>
+    <string name="option_advanced">hal</string>
+    <string name="option_professional">fan</string>
+
+    <string name="settings_title">Beállítások</string>
+
+    <string name="settings_level_label">Nehézségi szint</string>
+    <string name="settings_level_key" translatable="false">level</string>
+    <string name="settings_level_default" translatable="false">@string/settings_level_beginner_value</string>
+
+    <string name="settings_level_beginner_label">Kezdő kérdések</string>
+    <string name="settings_level_beginner_value" translatable="false">beginner</string>
+
+    <string name="settings_level_advanced_label">Haladó kérdések</string>
+    <string name="settings_level_advanced_value" translatable="false">advanced</string>
+
+    <string name="settings_level_professional_label">Kérdések fanatikusoknak</string>
+    <string name="settings_level_professional_value" translatable="false">professional</string>
+
+    <string name="akasztofa_menu">Új feladvány</string>
+
+    <string name="quiz_result_excellent">Kiváló teljesítmény, gratulálunk!!!</string>
+    <string name="quiz_result_good">Jó lesz, öreg! Kezdesz te is Potter rajongó lenni! :) </string>
+    <string name="quiz_result_notbad">Nem rossz teljesítmény! Gratulálunk!</string>
+    <string name="qiuz_result_more">Látom, kapisgálod már, csak így tovább!</string>
+    <string name="quiz_result_beginner">Az elején vagy még az utazásnak, de lesz még belőled fanatikus, meglásd!</string>
 
 </resources>
