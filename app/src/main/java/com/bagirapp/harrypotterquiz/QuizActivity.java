@@ -1,5 +1,8 @@
 package com.bagirapp.harrypotterquiz;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Context;
@@ -15,6 +18,8 @@ import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
+import android.text.Layout;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -23,6 +28,7 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
@@ -34,6 +40,7 @@ import android.widget.Toast;
 
 import com.bagirapp.harrypotterquiz.eredmenyData.EredmenyContract;
 import com.bagirapp.harrypotterquiz.eredmenyData.EredmenyDbHelper;
+import com.bagirapp.harrypotterquiz.eredmenyData.ResultsFragment;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -75,6 +82,7 @@ public class    QuizActivity extends AppCompatActivity {
     String date;
     private static final int EREDMENYEK = 100;
     private static final UriMatcher matcher = new UriMatcher(UriMatcher.NO_MATCH);
+
 
 
 
@@ -201,20 +209,6 @@ public class    QuizActivity extends AppCompatActivity {
         questionCounter++;
     }
 
-    /*public ArrayList<Question> pickQuestions(){
-        ArrayList<Question> listOfQuestions = new ArrayList<>();
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        for (int i = 1; i < maxDatabaseId + 1; i++) {
-            list.add(new Integer(i));
-        }
-        Collections.shuffle(list);
-
-        for (int i = 0; i<numberOfQuestions; i++){
-            Question question = mDb.getQuestionById(list.get(i));
-            listOfQuestions.add(question);
-        }
-        return listOfQuestions;
-    }*/
 
 
     public ArrayList<Question> chooseQuestion(int level){
@@ -249,7 +243,13 @@ public class    QuizActivity extends AppCompatActivity {
                 return true;
 
             case R.id.results:
-                SQLiteDatabase database = mDbHelper.getReadableDatabase();
+               /* FragmentManager manager = getSupportFragmentManager();
+                FragmentTransaction transaction = manager.beginTransaction();
+                ResultsFragment resultsFragment = new ResultsFragment();
+              //  Log.v(TAG, "Megtaláltam az azonosító alapján: " + resultList.getId());
+                transaction.replace(R.id.resultFragment, resultsFragment);
+               // transaction.addToBackStack(null);
+                transaction.commit();*/
                 return true;
         }
 
@@ -292,7 +292,7 @@ public class    QuizActivity extends AppCompatActivity {
     }
 
     public void databaseQuery(){
-        
+
     }
 
     public void popUp(View view){

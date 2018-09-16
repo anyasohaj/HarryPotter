@@ -55,6 +55,21 @@
             android:text="@string/next" />
     </LinearLayout>
 
+       <!-- <fragment
+            android:id="@+id/resultFragment"
+            android:name="com.bagirapp.harrypotterquiz.eredmenyData.ResultsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/results_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical">
+
+            </android.support.v7.widget.RecyclerView>
+        </fragment>-->
+
 </android.support.constraint.ConstraintLayout>
 
 

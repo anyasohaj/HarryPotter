@@ -35,4 +35,7 @@
     <string name="qiuz_result_more">Látom, kapisgálod már, csak így tovább!</string>
     <string name="quiz_result_beginner">Az elején vagy még az utazásnak, de lesz még belőled fanatikus, meglásd!</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
