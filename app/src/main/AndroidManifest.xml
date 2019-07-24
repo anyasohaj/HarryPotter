@@ -21,17 +21,18 @@
             android:name=".QuizActivity"
             android:label="@string/quiz_button"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".SettingsActivity"
+        <activity
+            android:name=".SettingsActivity"
             android:label="Beállítások"
             android:parentActivityName=".QuizActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.bagirapp.harrypotterquiz.QuizActivity"/>
-    </activity>
+                android:value="com.bagirapp.harrypotterquiz.QuizActivity" />
+        </activity>
         <activity
             android:name=".Akasztofa"
             android:label="@string/akasztofa_button"
-            android:parentActivityName=".MainActivity"/> >
+            android:parentActivityName=".MainActivity" />
 
     </application>
 
